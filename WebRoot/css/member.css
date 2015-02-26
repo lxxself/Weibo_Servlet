@@ -1,0 +1,125 @@
+body{
+	background-color: gray;
+	opacity:20;	
+	
+}
+.mheader{
+	background-color: #fcce01;
+	height:100px;
+	width:100%;
+	text-align:center;
+	
+}
+.top{
+	height:50px;
+	width:100%;
+	background: rgba(255, 255, 255, 0.941176);
+}
+.W_input {
+	width: 505px;
+	height:30px;
+	align:center;
+	margin:10px auto 5px 100px;
+}
+.top .sy{
+	
+	margin:10px auto 5px 400px;
+}
+.left{
+	height:100%;
+	width:20%;
+	background-color:#758A25;
+	float: left
+}
+.right{
+	height:100%;
+	width:20%;
+	background-color:#9204AA;
+	float: left
+}
+.main{
+	height:150%;
+	width:60%;
+	background-color:#8C4522;
+	float: left
+}
+.footer{
+	height:50px;
+	width:100%;
+	background-color:#526533;
+	float: left
+}
+.newarea{
+	border-radius: 15px;
+	background-image: none; 
+	background-attachment: scroll; 
+	background-color: rgb(255, 255, 255); 
+	margin:20px;
+	padding:0px; 
+	box-shadow: 0px 0px; 
+	color: rgb(189, 187, 187); 
+	border: 0px; 
+	z-index: 90; 
+	overflow: hidden; 
+	float: left; 
+	font-size: 13px; 
+	font-family: 'Microsoft YaHei', arial, tahoma, 宋体, sans-serif; 
+	resize: none; 
+	height: 80px; 
+	display: block; 
+	outline: none; 
+	word-wrap: break-word;  
+	width:85%; 
+	background-position: 0px 0px; 
+	background-repeat: repeat repeat;"
+}
+.fabu{
+	margin-top:20px;
+	height: 80px;	
+}
+.imgup{
+	left:20px;
+	margin:20px;
+}
+.wblists{
+	background-color: #32AA04; 
+	margin:50px 20px 0 20px;
+	width:main.width-40px;
+	height:600px;
+	border-radius: 5px;
+}
+.wbexpand{
+	background-color: #C7C4C2; 
+	
+}
+.wbhandle li{
+display: block;
+margin: 2px 0;
+padding: 0 10px;
+border-right-width: 1px;
+border-right-style: solid;
+line-height: 12px;
+float:right;
+display:inline;
+}
+.wbexpand{
+	margin-top:10px;
+}
+.wbwords{
+  width:500px;
+  height:40px;
+  overflow:auto; /*没超出内容则不显示滚条*/
+  /*overflow:hidden; 永远不显示滚动条*/	
+}
+.WB_text{
+
+	z-index:1;
+}
+.WB_edit{
+	display:none;
+	z-index:2;
+}
+.sbutton{
+	height:30px;
+	
+}

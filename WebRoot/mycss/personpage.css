@@ -1,0 +1,116 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	padding:80px;
+	 background-attachment:fixed; /*必须*/
+}
+
+.bigheader .panel{
+	margin-left: 15px;
+	text-align: center;
+
+}
+.bface{
+	width: 100px;
+	height: 100px;
+}
+.bigheader .btn{
+	margin-bottom: 10px;
+}
+div.wb_about{
+	text-align: center;
+}
+div.wb_about ul li{
+/*	border:1px solid #eee;*/
+	margin:10px 10px 0 5px;
+}
+div.wb_info ul li{
+	margin-left: 0px;
+	margin-top: 10px;
+}
+
+.panel-body .img-thumbnail{
+	width:60px;
+}
+.form-group .wb_other{
+	float:left;
+	}
+.form-group .wb_range,.submit{
+	float:right;
+	width:inherit;
+	margin-left:5px;
+}
+.form-group .wb_additional{
+	margin-top:10px;
+}
+.main .panel{
+	margin:10px;
+	padding:5px;
+}
+.panel .panel .facebox{
+	width:60px;
+	float:left;
+}
+.facebox .follow{
+	margin-left:5px;
+	margin-top:5px;
+}
+.panel .panel .wb_detail {
+	float:left;
+}
+.panel .panel{
+	overflow:hidden;
+	
+}
+.panel .panel .wb_detail .imagesbox{
+	width:310px;
+}
+.panel .panel .wb_detail .words,wb_info{
+	width:440px;
+}
+.panel .wb_info,.words,.imagesbox{
+		margin-top:10px;
+}
+.wb_wrap .list-inline li{
+	margin:10px 20px 0px 20px;
+	border-left:solid 1px #EFEFEF;
+	border-right:solid 1px #EFEFEF;
+	padding-left:5px;
+}
+.imagesbox img{
+	width:80px;
+	height:80px;
+}
+.mycomment .commenttext{
+	float: right;
+	width: 400px;
+	overflow:scroll;
+	overflow-y:hidden;
+	overflow-x:hidden;
+	resize:none;
+	}
+.mycomment .btcomment{
+	float: right;
+	margin-left: 100px;
+	margin-top: 5px;
+}
+.allcomment{
+	padding: 0px;
+
+}
+.allcomment .onecomment{
+	margin: 2px;
+
+}
+.allcomment .onecomment p{
+	margin: 0px;
+	border-top: solid 1px #F6F4F0;
+}
+.allcomment .onecomment .commenttext{
+	margin-left: 33px;
+}
+
+.pnpage{
+	text-align: center;
+}
+
